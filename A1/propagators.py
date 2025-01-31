@@ -108,24 +108,24 @@ def prop_FC(csp, newVar=None):
     #         print(v.cur_domain())
     vals = []
     if not newVar:
-        print("here")
+        # print("here")
         for c in csp.get_all_nary_cons(1):
             v = c.get_unasgn_vars()[0]
             if v.cur_domain_size() == 0:
-                return False, []
+                return False, vals
             if v.cur_domain_size() == 1:
                 if not c.check_var_val(v, v.cur_domain()[0]):
-                    return False, []
+                    return False, vals
                 
     else:
         for c in csp.get_cons_with_var(newVar):
             if c.get_n_unasgn() == 1:
                 v = c.get_unasgn_vars()[0]
                 if v.cur_domain_size() == 0:
-                    return False, []
+                    return False, vals
                 if v.cur_domain_size() == 1:
                     if not c.check_var_val(v, v.cur_domain()[0]):
-                        return False, []
+                        return False, vals
                 for val in v.cur_domain():
                     if not c.check_var_val(v, val):
                         # print("setting", newVar, "pruning", val, "from", v)
