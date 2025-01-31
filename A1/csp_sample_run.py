@@ -79,8 +79,8 @@ print("=======================================================")
 print("Forward Checking on simple CSP")
 btracker.bt_search(prop_FC)
 print("=======================================================")
-# print("GAC on simple CSP")
-# btracker.bt_search(prop_GAC)
+print("GAC on simple CSP")
+btracker.bt_search(prop_GAC)
 
 
 # ======================
@@ -222,6 +222,10 @@ trace = False
 print("Forward Checking on Colouring Australia")
 solve_graph_color('FC', trace)
 print("=========================================")
+trace = False
+print("gac on Colouring Australia")
+solve_graph_color('GAC', trace)
+print("=========================================")
 
 
 # ================
@@ -286,6 +290,6 @@ print("=======================================================")
 print("Forward Checking 8-queens")
 solve_nQueens(16, 'FC', trace)
 print("=======================================================")
-#print("GAC 8-queens")
-#solve_nQueens(8, 'GAC', trace)
+print("GAC 8-queens")
+solve_nQueens(16, 'GAC', trace)
 

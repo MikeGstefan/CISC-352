@@ -108,7 +108,6 @@ def prop_FC(csp, newVar=None):
     #         print(v.cur_domain())
     vals = []
     if not newVar:
-        # print("here")
         for c in csp.get_all_nary_cons(1):
             v = c.get_unasgn_vars()[0]
             if v.cur_domain_size() == 0:
@@ -159,4 +158,40 @@ def prop_GAC(csp, newVar=None):
        processing all constraints. Otherwise we do GAC enforce with
        constraints containing newVar on GAC Queue'''
     #IMPLEMENT
-    pass
+
+    # print(csp.get_all_cons()[0].get_scope())
+    vals = []
+    # csp.print_all()
+    if not newVar:
+        # print("here")
+        queue = csp.get_all_cons()
+        resolved =[]
+        for c in queue:
+            # print(c)
+            # print("bing", c.get_unasgn_vars())
+            for v in c.get_scope():
+                # print(v.cur_domain())
+                for val in v.cur_domain():
+                    if not c.check_var_val(v, val):
+                        # print("setting", v, "pruning", val, "from", c)
+                        v.prune_value(val)
+                        vals.append((v, val))
+                        # resolved.append(c)
+                        # break
+                    # print("checking", v, val, c.check_var_val(v, val))
+        # for c in csp.get_all_cons():
+        #     print(c.get_unasgn_vars())
+    else: 
+        for c in csp.get_cons_with_var(newVar):
+            for v in c.get_scope():
+                # print(v.cur_domain())
+                for val in v.cur_domain():
+                    if not c.check_var_val(v, val):
+                        # print("setting", v, "pruning", val, "from", c)
+                        v.prune_value(val)
+                        vals.append((v, val))
+                        # resolved.append(c)
+                        # break
+                    # print("checking", v, val, c.check_var_val(v, val))
+
+    return True, vals
