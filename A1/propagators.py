@@ -94,6 +94,7 @@ def prop_BT(csp, newVar=None):
                 vals.append(var.get_assigned_value())
             if not c.check_tuple(vals):
                 return False, []
+    # print("setting", newVar, "pruning", newVar.get_assigned_value(), "from")
     return True, []
 
 def prop_FC(csp, newVar=None):
@@ -101,7 +102,56 @@ def prop_FC(csp, newVar=None):
        only one uninstantiated Variable. Remember to keep
        track of all pruned Variable,value pairs and return '''
     #IMPLEMENT
-    pass
+    # csp.print_all()
+    # for c in csp.get_all_cons():
+    #     for v in c.get_scope():
+    #         print(v.cur_domain())
+    vals = []
+    if not newVar:
+        print("here")
+        for c in csp.get_all_nary_cons(1):
+            v = c.get_unasgn_vars()[0]
+            if v.cur_domain_size() == 0:
+                return False, []
+            if v.cur_domain_size() == 1:
+                if not c.check_var_val(v, v.cur_domain()[0]):
+                    return False, []
+                
+    else:
+        for c in csp.get_cons_with_var(newVar):
+            if c.get_n_unasgn() == 1:
+                v = c.get_unasgn_vars()[0]
+                if v.cur_domain_size() == 0:
+                    return False, []
+                if v.cur_domain_size() == 1:
+                    if not c.check_var_val(v, v.cur_domain()[0]):
+                        return False, []
+                for val in v.cur_domain():
+                    if not c.check_var_val(v, val):
+                        # print("setting", newVar, "pruning", val, "from", v)
+                        v.prune_value(val)
+                        vals.append((v, val))
+                # print("setting", newVar, "looking", v, "cur", v.cur_domain())
+                # if not c.check_tuple(v.cur_domain()):
+                #     print("setting", newVar, "pruning", newVar.get_assigned_value(), "from", v)
+                #     v.prune_value(newVar.get_assigned_value())
+                #     vals.append((v, newVar.get_assigned_value()))  
+                    # continue
+                # v = c.get_unasgn_vars()[0]
+                # if v.cur_domain_size() == 0:
+                #     return False, []
+                
+                # if not c.check_var_val(newVar, newVar.get_assigned_value()):
+                #     # continue
+                # if v.in_cur_domain(newVar.get_assigned_value()):
+                #     if v.cur_domain_size() == 1:
+                #         return False, []
+                #     print("setting", newVar, "pruning", newVar.get_assigned_value(), "from", v)
+                #     v.prune_value(newVar.get_assigned_value())
+                #     vals.append((v, newVar.get_assigned_value()))  
+
+                   
+    return True, vals
 
 
 def prop_GAC(csp, newVar=None):
