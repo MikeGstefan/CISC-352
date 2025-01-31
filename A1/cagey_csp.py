@@ -1,12 +1,15 @@
 # =============================
-# Student Names:
+# Student Names: Calvin Birch, Mike Stephen, Cooper Moses 
 # Group ID:
-# Date:
+# Date: 2025-01-30
 # =============================
 # CISC 352 - W23
 # cagey_csp.py
-# desc:
+# desc: Implement CSP models for Cagey puzzles
 #
+
+import cspbase
+import itertools
 
 #Look for #IMPLEMENT tags in this file.
 '''
@@ -87,13 +90,105 @@ from cspbase import *
 
 def binary_ne_grid(cagey_grid):
     ##IMPLEMENT
-    pass
+    n, cages = cagey_grid
+
+    variables = [[None for _ in range(n)] for _ in range(n)]
+
+    # Step 1: Disect the input and make variables for each cell (no variables for operator or cages because we ignore cage constraints)
+    #print("step 1")
+    for cage in cages:
+        v, cells, operator = cage
+        for cell in cells:
+            row, col = cell
+            #create a variable for each cell (name, domain(1 (inclusive) to n+1 (exclusive) ))
+            print(f"Cell({row},{col})")
+            variables[row-1][col-1] = cspbase.Variable(f"Cell({row},{col})", [i for i in range(1, n+1)])
+        
+    #print("step 2")
+    # Step 2: Create the CSP with the newly created variables
+    flatVariables = [var for row in variables for var in row] # Convert 2D array to 1D array
+
+    csp = CSP("Binary csp", flatVariables)
+
+    # Step 3: Create constraints
+    # binary not-equal constraints for both the row and column constraints.
+    # 0,0 != 0,1, 0,0 != 0,2, 01 != 0,2 (for row 0) and so on for all rows and columns
+    
+    constraints = []
+
+    #print("step 3.1")
+    # Row constraints
+    for row in range(n):
+        for j in range(n): # for every item in row
+            for k in range(j+1, n): # create constraint with every other item in row
+                constraint = cspbase.Constraint(f"Constraint({row},{j})-({row},{k})", (variables[row][j], variables[row][k]))
+                
+                # Generate all valid pairs of values
+                satisfyingTuples = [(a, b) for a in range(1, n+1) for b in range(1, n+1) if a != b]
+                constraint.add_satisfying_tuples(satisfyingTuples)
+                
+                csp.add_constraint(constraint)
+
+    #print("step 3.2")
+    # Column constraints
+    for col in range(n):
+        for j in range(n): # for every item in row
+            for k in range(j+1, n): # create constraint with every other item in row
+                constraint = cspbase.Constraint(f"Constraint({j},{col})-({k},{col})", (variables[j][col], variables[k][col]))
+                
+                # Generate all valid pairs of values
+                satisfyingTuples = [(a, b) for a in range(1, n+1) for b in range(1, n+1) if a != b]
+                constraint.add_satisfying_tuples(satisfyingTuples)
+                
+                csp.add_constraint(constraint)
+    
+    return csp, variables
 
 
 def nary_ad_grid(cagey_grid):
     ## IMPLEMENT
-    pass
+    n, cages = cagey_grid
+
+    variables = [[None for _ in range(n)] for _ in range(n)]
+
+    # Step 1: Disect the input and make variables for each cell (no variables for operator or cages because we ignore cage constraints)
+    #print("step 1")
+    for cage in cages:
+        v, cells, operator = cage
+        for cell in cells:
+            row, col = cell
+            #create a variable for each cell (name, domain(1 (inclusive) to n+1 (exclusive) ))
+            print(f"Cell({row},{col})")
+            variables[row-1][col-1] = cspbase.Variable(f"Cell({row},{col})", [i for i in range(1, n+1)])
+        
+    #print("step 2")
+    # Step 2: Create the CSP with the newly created variables
+    flatVariables = [var for row in variables for var in row] # Convert 2D array to 1D array
+
+    csp = CSP("Binary csp", flatVariables)
+
+    # Step 3: Create constraints
+    # instead of pairwise constraints, we use all diff for each row and column
+    for row in range(n):
+        constraint = cspbase.Constraint(f"RowConstraint({row+1})", [variables[row][i] for i in range(n)])
+
+        # Add all satisfying tuples
+        satisfyingTuples = list(itertools.permutations(range(1, n+1)))
+        constraint.add_satisfying_tuples(satisfyingTuples)
+        csp.add_constraint(constraint)
+
+    for col in range(n):
+        constraint = cspbase.Constraint(f"ColConstraint({col+1})", [variables[i][col] for i in range(n)])
+
+        # Add all satisfying tuples
+        satisfyingTuples = list(itertools.permutations(range(1, n+1)))
+        constraint.add_satisfying_tuples(satisfyingTuples)
+        csp.add_constraint(constraint)
+
+    return csp, variables
 
 def cagey_csp_model(cagey_grid):
     ##IMPLEMENT
     pass
+
+nary_ad_grid((3, [(3,[(1,1), (2,1)],"+"),(1, [(1,2)], '?'), (8, [(1,3), (2,3), (2,2)], "+"), (3, [(3,1)], '?'), (3, [(3,2), (3,3)], "+")]))
