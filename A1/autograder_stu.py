@@ -1262,24 +1262,19 @@ class TestPropFC(unittest.TestCase):
             FC_POINTS += 1
 
     def test_prop_fc_0(self):
-        pass
-        #self.prop_fc_helper(0)
+        self.prop_fc_helper(0)
 
     def test_prop_fc_1(self):
-        pass
-        #self.prop_fc_helper(1)
+        self.prop_fc_helper(1)
 
     def test_prop_fc_2(self):
-        pass
-        #self.prop_fc_helper(2)
+        self.prop_fc_helper(2)
 
     def test_prop_fc_3(self):
-        pass
-        #self.prop_fc_helper(3)
+        self.prop_fc_helper(3)
 
     def test_prop_fc_4(self):
-        pass
-        #self.prop_fc_helper(4)
+        self.prop_fc_helper(4)
         
     def test_bin_prop_fc_0(self):
         self.prop_fc_bin_helper(0)
