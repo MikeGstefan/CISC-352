@@ -94,18 +94,12 @@ def prop_BT(csp, newVar=None):
                 vals.append(var.get_assigned_value())
             if not c.check_tuple(vals):
                 return False, []
-    # print("setting", newVar, "pruning", newVar.get_assigned_value(), "from")
     return True, []
 
 def prop_FC(csp, newVar=None):
     '''Do forward checking. That is check constraints with
        only one uninstantiated Variable. Remember to keep
        track of all pruned Variable,value pairs and return '''
-    #IMPLEMENT
-    # csp.print_all()
-    # for c in csp.get_all_cons():
-    #     for v in c.get_scope():
-    #         print(v.cur_domain())
     vals = []
     if not newVar:
         for c in csp.get_all_nary_cons(1):
@@ -127,28 +121,8 @@ def prop_FC(csp, newVar=None):
                         return False, vals
                 for val in v.cur_domain():
                     if not c.check_var_val(v, val):
-                        # print("setting", newVar, "pruning", val, "from", v)
                         v.prune_value(val)
                         vals.append((v, val))
-                # print("setting", newVar, "looking", v, "cur", v.cur_domain())
-                # if not c.check_tuple(v.cur_domain()):
-                #     print("setting", newVar, "pruning", newVar.get_assigned_value(), "from", v)
-                #     v.prune_value(newVar.get_assigned_value())
-                #     vals.append((v, newVar.get_assigned_value()))  
-                    # continue
-                # v = c.get_unasgn_vars()[0]
-                # if v.cur_domain_size() == 0:
-                #     return False, []
-                
-                # if not c.check_var_val(newVar, newVar.get_assigned_value()):
-                #     # continue
-                # if v.in_cur_domain(newVar.get_assigned_value()):
-                #     if v.cur_domain_size() == 1:
-                #         return False, []
-                #     print("setting", newVar, "pruning", newVar.get_assigned_value(), "from", v)
-                #     v.prune_value(newVar.get_assigned_value())
-                #     vals.append((v, newVar.get_assigned_value()))  
-
                    
     return True, vals
 
@@ -159,39 +133,24 @@ def prop_GAC(csp, newVar=None):
        constraints containing newVar on GAC Queue'''
     #IMPLEMENT
 
-    # print(csp.get_all_cons()[0].get_scope())
     vals = []
-    # csp.print_all()
+
     if not newVar:
-        # print("here")
         queue = csp.get_all_cons()
         resolved =[]
         for c in queue:
-            # print(c)
-            # print("bing", c.get_unasgn_vars())
             for v in c.get_scope():
-                # print(v.cur_domain())
                 for val in v.cur_domain():
                     if not c.check_var_val(v, val):
-                        # print("setting", v, "pruning", val, "from", c)
                         v.prune_value(val)
                         vals.append((v, val))
-                        # resolved.append(c)
-                        # break
-                    # print("checking", v, val, c.check_var_val(v, val))
-        # for c in csp.get_all_cons():
-        #     print(c.get_unasgn_vars())
+
     else: 
         for c in csp.get_cons_with_var(newVar):
             for v in c.get_scope():
-                # print(v.cur_domain())
                 for val in v.cur_domain():
                     if not c.check_var_val(v, val):
-                        # print("setting", v, "pruning", val, "from", c)
                         v.prune_value(val)
                         vals.append((v, val))
-                        # resolved.append(c)
-                        # break
-                    # print("checking", v, val, c.check_var_val(v, val))
 
     return True, vals
