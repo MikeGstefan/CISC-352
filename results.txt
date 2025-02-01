@@ -1,0 +1,1421 @@
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... ERROR
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... FAIL
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... FAIL
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... FAIL
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... FAIL
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... FAIL
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... FAIL
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... ERROR
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... FAIL
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... FAIL
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... FAIL
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... FAIL
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... FAIL
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... FAIL
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 616, in test_cage_existence
+    csp, var_array = cagey_csp_model(board)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "a:\CISC-352\CISC-352\A1\cagey_csp.py", line 206, in cagey_csp_model
+    csp.add_variable(f"{value}:{operator}{cells}", operations )
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'CSP' object has no attribute 'add_variable'
+
+======================================================================
+FAIL: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+AssertionError: False is not true : 
+
+Student code threw exception "'CSP' object has no attribute 'add_variable'". Failed to construct board!
+(2, [(4, [(1, 1), (1, 2), (2, 1), (2, 2)], '+')])
+
+
+======================================================================
+FAIL: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+AssertionError: False is not true : 
+
+Student code threw exception "'CSP' object has no attribute 'add_variable'". Failed to construct board!
+(2, [(4, [(1, 1), (1, 2), (2, 1), (2, 2)], '-')])
+
+
+======================================================================
+FAIL: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+AssertionError: False is not true : 
+
+Student code threw exception "'CSP' object has no attribute 'add_variable'". Failed to construct board!
+(2, [(4, [(1, 1), (1, 2), (2, 1), (2, 2)], '*')])
+
+
+======================================================================
+FAIL: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+AssertionError: False is not true : 
+
+Student code threw exception "'CSP' object has no attribute 'add_variable'". Failed to construct board!
+(3, [(10, [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)], '+')])
+
+
+======================================================================
+FAIL: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+AssertionError: False is not true : 
+
+Student code threw exception "'CSP' object has no attribute 'add_variable'". Failed to construct board!
+(3, [(7, [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)], '-')])
+
+
+======================================================================
+FAIL: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+AssertionError: False is not true : 
+
+Student code threw exception "'CSP' object has no attribute 'add_variable'". Failed to construct board!
+(3, [(10, [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)], '*')])
+
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.844s
+
+FAILED (failures=6, errors=1)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0010s
+test_bne_grid_3: 0.0015s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0060s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0010s
+test_nary_grid_4: 0.0155s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0000s
+test_bin_prop_fc_3: 0.0000s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0010s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0015s
+test_prop_GAC_3: 0.0010s
+test_prop_GAC_4: 0.0010s
+test_prop_GAC_5: 0.0142s
+test_prop_GAC_6: 0.0781s
+test_prop_GAC_7: 0.0156s
+test_prop_GAC_8: 0.3813s
+test_prop_GAC_9: 0.3128s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-21:57:12
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... ERROR
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 622, in test_cage_existence
+    if v.name == correct:
+       ^^^^^^
+AttributeError: 'list' object has no attribute 'name'
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.880s
+
+FAILED (errors=7)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0015s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0060s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0150s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0000s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0020s
+test_prop_GAC_3: 0.0000s
+test_prop_GAC_4: 0.0020s
+test_prop_GAC_5: 0.0118s
+test_prop_GAC_6: 0.0866s
+test_prop_GAC_7: 0.0169s
+test_prop_GAC_8: 0.3995s
+test_prop_GAC_9: 0.3216s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-21:59:48
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... ERROR
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 622, in test_cage_existence
+    if v.name == correct:
+       ^^^^^^
+AttributeError: 'list' object has no attribute 'name'
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.870s
+
+FAILED (errors=7)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0000s
+test_bne_grid_4: 0.0015s
+test_bne_grid_5: 0.0060s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0156s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0010s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0010s
+test_prop_GAC_3: 0.0015s
+test_prop_GAC_4: 0.0010s
+test_prop_GAC_5: 0.0121s
+test_prop_GAC_6: 0.0800s
+test_prop_GAC_7: 0.0159s
+test_prop_GAC_8: 0.3943s
+test_prop_GAC_9: 0.3207s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:03:39
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... ERROR
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 622, in test_cage_existence
+    if v.name == correct:
+       ^^^^^^
+AttributeError: 'list' object has no attribute 'name'
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.872s
+
+FAILED (errors=7)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0010s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0010s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0055s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0010s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0150s
+test_bin_prop_fc_0: 0.0010s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0000s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0005s
+test_prop_GAC_3: 0.0010s
+test_prop_GAC_4: 0.0010s
+test_prop_GAC_5: 0.0145s
+test_prop_GAC_6: 0.0830s
+test_prop_GAC_7: 0.0165s
+test_prop_GAC_8: 0.3960s
+test_prop_GAC_9: 0.3205s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:36:16
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... ERROR
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 622, in test_cage_existence
+    if v.name == correct:
+       ^^^^^^
+AttributeError: 'list' object has no attribute 'name'
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.825s
+
+FAILED (errors=7)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0010s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0045s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0010s
+test_nary_grid_4: 0.0152s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0010s
+test_prop_GAC_1: 0.0000s
+test_prop_GAC_2: 0.0010s
+test_prop_GAC_3: 0.0010s
+test_prop_GAC_4: 0.0000s
+test_prop_GAC_5: 0.0115s
+test_prop_GAC_6: 0.0762s
+test_prop_GAC_7: 0.0142s
+test_prop_GAC_8: 0.3746s
+test_prop_GAC_9: 0.3061s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:44:13
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... FAIL
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+AssertionError: False is not true : failed to find cage variable
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.849s
+
+FAILED (failures=1, errors=6)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0010s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0055s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0140s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0011s
+test_bin_prop_fc_3: 0.0000s
+test_bin_prop_fc_4: 0.0000s
+test_prop_GAC_0: 0.0011s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0010s
+test_prop_GAC_3: 0.0010s
+test_prop_GAC_4: 0.0021s
+test_prop_GAC_5: 0.0110s
+test_prop_GAC_6: 0.0779s
+test_prop_GAC_7: 0.0150s
+test_prop_GAC_8: 0.3840s
+test_prop_GAC_9: 0.3178s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:47:19
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... FAIL
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+AssertionError: False is not true : failed to find cage variable
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.817s
+
+FAILED (failures=1, errors=6)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0010s
+test_bne_grid_3: 0.0000s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0050s
+test_nary_grid_1: 0.0010s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0151s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0000s
+test_prop_GAC_1: 0.0000s
+test_prop_GAC_2: 0.0020s
+test_prop_GAC_3: 0.0010s
+test_prop_GAC_4: 0.0014s
+test_prop_GAC_5: 0.0115s
+test_prop_GAC_6: 0.0751s
+test_prop_GAC_7: 0.0150s
+test_prop_GAC_8: 0.3690s
+test_prop_GAC_9: 0.3020s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:47:22
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... FAIL
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+AssertionError: False is not true : failed to find cage variable
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.886s
+
+FAILED (failures=1, errors=6)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0000s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0000s
+test_bne_grid_4: 0.0035s
+test_bne_grid_5: 0.0060s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0010s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0155s
+test_bin_prop_fc_0: 0.0000s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0000s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0010s
+test_prop_GAC_3: 0.0015s
+test_prop_GAC_4: 0.0010s
+test_prop_GAC_5: 0.0125s
+test_prop_GAC_6: 0.0796s
+test_prop_GAC_7: 0.0155s
+test_prop_GAC_8: 0.4049s
+test_prop_GAC_9: 0.3285s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:49:11
+
+===========================================
+test_bne_grid_1 (__main__.TestBinaryGrid.test_bne_grid_1) ... ok
+test_bne_grid_2 (__main__.TestBinaryGrid.test_bne_grid_2) ... ok
+test_bne_grid_3 (__main__.TestBinaryGrid.test_bne_grid_3) ... ok
+test_bne_grid_4 (__main__.TestBinaryGrid.test_bne_grid_4) ... ok
+test_bne_grid_5 (__main__.TestBinaryGrid.test_bne_grid_5) ... ok
+test_cage_existence (__main__.TestCageConstraints.test_cage_existence) ... FAIL
+test_cages_1 (__main__.TestCageConstraints.test_cages_1) ... ERROR
+test_cages_2 (__main__.TestCageConstraints.test_cages_2) ... ERROR
+test_cages_3 (__main__.TestCageConstraints.test_cages_3) ... ERROR
+test_cages_4 (__main__.TestCageConstraints.test_cages_4) ... ERROR
+test_cages_5 (__main__.TestCageConstraints.test_cages_5) ... ERROR
+test_cages_6 (__main__.TestCageConstraints.test_cages_6) ... ERROR
+test_dh_1 (__main__.TestDH.test_dh_1) ... ok
+test_dh_2 (__main__.TestDH.test_dh_2) ... ok
+test_dh_3 (__main__.TestDH.test_dh_3) ... ok
+test_dh_4 (__main__.TestDH.test_dh_4) ... ok
+test_mrv_1 (__main__.TestMRV.test_mrv_1) ... ok
+test_mrv_2 (__main__.TestMRV.test_mrv_2) ... ok
+test_mrv_3 (__main__.TestMRV.test_mrv_3) ... ok
+test_mrv_4 (__main__.TestMRV.test_mrv_4) ... ok
+test_nary_grid_1 (__main__.TestNaryGrid.test_nary_grid_1) ... ok
+test_nary_grid_2 (__main__.TestNaryGrid.test_nary_grid_2) ... ok
+test_nary_grid_3 (__main__.TestNaryGrid.test_nary_grid_3) ... ok
+test_nary_grid_4 (__main__.TestNaryGrid.test_nary_grid_4) ... ok
+test_bin_prop_fc_0 (__main__.TestPropFC.test_bin_prop_fc_0) ... ok
+test_bin_prop_fc_1 (__main__.TestPropFC.test_bin_prop_fc_1) ... ok
+test_bin_prop_fc_2 (__main__.TestPropFC.test_bin_prop_fc_2) ... ok
+test_bin_prop_fc_3 (__main__.TestPropFC.test_bin_prop_fc_3) ... ok
+test_bin_prop_fc_4 (__main__.TestPropFC.test_bin_prop_fc_4) ... ok
+test_prop_fc_0 (__main__.TestPropFC.test_prop_fc_0) ... ok
+test_prop_fc_1 (__main__.TestPropFC.test_prop_fc_1) ... ok
+test_prop_fc_2 (__main__.TestPropFC.test_prop_fc_2) ... ok
+test_prop_fc_3 (__main__.TestPropFC.test_prop_fc_3) ... ok
+test_prop_fc_4 (__main__.TestPropFC.test_prop_fc_4) ... ok
+test_prop_GAC_0 (__main__.TestPropGAC.test_prop_GAC_0) ... ok
+test_prop_GAC_1 (__main__.TestPropGAC.test_prop_GAC_1) ... ok
+test_prop_GAC_2 (__main__.TestPropGAC.test_prop_GAC_2) ... ok
+test_prop_GAC_3 (__main__.TestPropGAC.test_prop_GAC_3) ... ok
+test_prop_GAC_4 (__main__.TestPropGAC.test_prop_GAC_4) ... ok
+test_prop_GAC_5 (__main__.TestPropGAC.test_prop_GAC_5) ... ok
+test_prop_GAC_6 (__main__.TestPropGAC.test_prop_GAC_6) ... ok
+test_prop_GAC_7 (__main__.TestPropGAC.test_prop_GAC_7) ... ok
+test_prop_GAC_8 (__main__.TestPropGAC.test_prop_GAC_8) ... ok
+test_prop_GAC_9 (__main__.TestPropGAC.test_prop_GAC_9) ... ok
+
+======================================================================
+ERROR: test_cages_1 (__main__.TestCageConstraints.test_cages_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 659, in test_cages_1
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_2 (__main__.TestCageConstraints.test_cages_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 733, in test_cages_2
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_3 (__main__.TestCageConstraints.test_cages_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 808, in test_cages_3
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_4 (__main__.TestCageConstraints.test_cages_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 882, in test_cages_4
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_5 (__main__.TestCageConstraints.test_cages_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 956, in test_cages_5
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_cages_6 (__main__.TestCageConstraints.test_cages_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a:\CISC-352\CISC-352\A1\autograder_stu.py", line 1030, in test_cages_6
+    if not isinstance(guess[0].scope[0].dom[0], str):
+                      ~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_cage_existence (__main__.TestCageConstraints.test_cage_existence)
+----------------------------------------------------------------------
+AssertionError: False is not true : failed to find cage variable
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.836s
+
+FAILED (failures=1, errors=6)
+----------------------------------------------------------------------
+Time spent:
+
+test_bne_grid_1: 0.0012s
+test_bne_grid_2: 0.0000s
+test_bne_grid_3: 0.0010s
+test_bne_grid_4: 0.0020s
+test_bne_grid_5: 0.0055s
+test_nary_grid_1: 0.0000s
+test_nary_grid_2: 0.0000s
+test_nary_grid_3: 0.0020s
+test_nary_grid_4: 0.0140s
+test_bin_prop_fc_0: 0.0010s
+test_bin_prop_fc_1: 0.0010s
+test_bin_prop_fc_2: 0.0010s
+test_bin_prop_fc_3: 0.0010s
+test_bin_prop_fc_4: 0.0010s
+test_prop_GAC_0: 0.0000s
+test_prop_GAC_1: 0.0010s
+test_prop_GAC_2: 0.0020s
+test_prop_GAC_3: 0.0000s
+test_prop_GAC_4: 0.0010s
+test_prop_GAC_5: 0.0115s
+test_prop_GAC_6: 0.0771s
+test_prop_GAC_7: 0.0170s
+test_prop_GAC_8: 0.3790s
+test_prop_GAC_9: 0.3105s
+----------------------------------------------------------------------
+Grades:
+
+FC: 0.25/0.5
+GAC: 0.75/0.75
+MRV: 0.25/0.25
+DH: 0.25/0.25
+BINARY: 0.25/0.25
+NARY: 0.25/0.25
+CAGEY: 0.0/0.5
+
+TOTAL: 2.0/2.75
+Code quality: ?/0.25
+
+Running time: 2025_01_31-22:53:53
+
+===========================================

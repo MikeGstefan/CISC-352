@@ -1,7 +1,7 @@
 # =============================
-# Student Names:
-# Group ID:
-# Date:
+# Student Names: Calvin Birch, Mike Stephen, Cooper Moses 
+# Group ID: 11
+# Date: 2025-01-30
 # =============================
 # CISC 352 - W23
 # heuristics.py
