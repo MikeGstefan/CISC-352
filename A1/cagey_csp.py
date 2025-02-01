@@ -102,7 +102,7 @@ def binary_ne_grid(cagey_grid):
             #create a variable for each cell (name, domain(1 (inclusive) to n+1 (exclusive) ))
             #print(f"Cell({row},{col})")
             # print
-            variables[row][col] = cspbase.Variable(f"Var-Cell({row+1},{col+1})", [i for i in range(1, n+1)])
+            variables[row][col] = cspbase.Variable(f"Cell({row+1},{col+1})", [i for i in range(1, n+1)])
         
     #print("step 2")
     # Step 2: Create the CSP with the newly created variables
@@ -163,7 +163,7 @@ def nary_ad_grid(cagey_grid):
             #create a variable for each cell (name, domain(1 (inclusive) to n+1 (exclusive) ))
             #print(f"Cell({row},{col})")
             # print
-            variables[row][col] = cspbase.Variable(f"Var-Cell({row+1},{col+1})", [i for i in range(1, n+1)])
+            variables[row][col] = cspbase.Variable(f"Cell({row+1},{col+1})", [i for i in range(1, n+1)])
         
     #print("step 2")
     # Step 2: Create the CSP with the newly created variables
@@ -195,6 +195,7 @@ def cagey_csp_model(cagey_grid):
     ##IMPLEMENT
 
     csp, variables = nary_ad_grid(cagey_grid)
+    has_guess = False
 
 
     n, cages = cagey_grid
@@ -203,60 +204,84 @@ def cagey_csp_model(cagey_grid):
     for cage in cages:
         value, cells, operator = cage
 
-
-        cage_variable = cspbase.Variable(f"Cage_op({value}:{operator}:{cells})", operations )
+        scope = [variables[(cell[1]-1) + (n*(cell[0]-1))] for cell in cells]
+        
+        cage_variable = cspbase.Variable(f"Cage_op({value}:{operator}:{scope})", operations )
         csp.add_var(cage_variable)
         variables.append(cage_variable)
+        scope.append(cage_variable)
+
+        # print(variables)
         
         if len(cells)==1:
-            constraint = cspbase.Constraint(f"Cage{value}+", [variables[(cell[0]-1) + (n*(cell[1]-1))] for cell in cells])
+            
+            constraint = cspbase.Constraint(f"Cage{value}+", scope)
             constraint.add_satisfying_tuples((value))
             csp.add_constraint(constraint)
         
-        elif operator=="+" or operator=="?":
-            all_perms = itertools.permutations([i for i in range(1, n+1)], len(cells))
+        elif operator=='+' or operator=='?':
+            # print("AHHHH")
+            # all_perms = itertools.permutations([i for i in range(1, n+1)]*n, len(cells))
+            all_perms = itertools.product([i for i in range(1, n+1)], repeat=len(cells))
+            # print(cells)
+            # print(all_perms)
             goodPerms = []
             for perm in all_perms:
+                # print(perm)
                 if sum(perm) == value:
-                    goodPerms.append(perm)
-            
+                    # tuple( list(perm).append('+'))
+                    perm_list = list(perm)
+                    perm_list.append('+')
+                    goodPerms.append(perm_list)
+                    has_guess = True
+
             if len(goodPerms) != 0: 
-                constraint = cspbase.Constraint(f"Cage{value}+", [variables[(cell[0]-1) + (n*(cell[1]-1))] for cell in cells])
+                constraint = cspbase.Constraint(f"Cage{value}+", scope)
                 
                 constraint.add_satisfying_tuples(goodPerms)
                 csp.add_constraint(constraint)
 
-        elif operator=="-" or operator=="?":
-            all_perms = itertools.permutations([i for i in range(1, n+1)], len(cells))
+        elif operator=='-' or operator=='?':
+            all_perms = itertools.product([i for i in range(1, n+1)], repeat=len(cells))
             goodPerms=[]
             for perm in all_perms:
+                print(perm)
                 total=perm[0]
                 for i in perm[1:]:
                     total-=i
                 if total == value:
-                    goodPerms.append(perm)
+                    perm_list = list(perm)
+                    perm_list.append('-')
+                    goodPerms.append(perm_list)
+                    has_guess = True
+                    
 
             if len(goodPerms) != 0: 
-                constraint = cspbase.Constraint(f"Cage{value}-", [variables[(cell[0]-1) + (n*(cell[1]-1))] for cell in cells])
+                constraint = cspbase.Constraint(f"Cage{value}-", scope)
                 
                 constraint.add_satisfying_tuples(goodPerms)
                 csp.add_constraint(constraint)
 
-        elif operator=="*" or operator=="?":
-            all_perms = itertools.permutations([i for i in range(1, n+1)], len(cells))
+        elif operator=='*' or operator=='?':
+            all_perms = itertools.product([i for i in range(1, n+1)], repeat=len(cells))
             goodPerms=[]
             for perm in all_perms:
                 if prod(perm) == value:
-                    goodPerms.append(perm)
+                    perm_list = list(perm)
+                    perm_list.append('*')
+                    goodPerms.append(perm_list)
+                    has_guess = True
+                    
                 
             if len(goodPerms) != 0: 
-                constraint = cspbase.Constraint(f"Cage{value}*", [variables[(cell[0]-1) + (n*(cell[1]-1))] for cell in cells])
+                constraint = cspbase.Constraint(f"Cage{value}*", scope)
                 
                 constraint.add_satisfying_tuples(goodPerms)
                 csp.add_constraint(constraint)
 
-        elif operator=="/" or operator=="?":
-            all_perms = itertools.permutations([i for i in range(1, n+1)], len(cells))
+        elif operator=='/' or operator=='?':
+            all_perms = itertools.product([i for i in range(1, n+1)], repeat=len(cells))
+
             goodPerms=[]
             for perm in all_perms:
                 total=perm[0]
@@ -265,17 +290,36 @@ def cagey_csp_model(cagey_grid):
                         break
                     total/=i
                 if total == value:
-                    goodPerms.append(perm)
+                    perm_list = list(perm)
+                    perm_list.append('/')
+                    goodPerms.append(perm_list)
+                    has_guess = True
+                    
 
             if len(goodPerms) != 0:        
-                constraint = cspbase.Constraint(f"Cage{value}/", [variables[cell[0]-1][cell[1]-1] for cell in cells])
+                constraint = cspbase.Constraint(f"Cage{value}/", scope)
                 
                 constraint.add_satisfying_tuples(goodPerms)
                 csp.add_constraint(constraint)
+        
+        if len(goodPerms) == 0 and operator != '?':
+            constraint = cspbase.Constraint(f"No Answer", [])
+                
+            constraint.add_satisfying_tuples([])
+            csp.add_constraint(constraint)
     
 
     return csp, variables
 
-tester, var_tester = cagey_csp_model((2,[(6, [(1, 1), (1, 2), (2, 1), (2, 2)], '+')]))
-for i in var_tester:
-    print(i.name)
+tester, var_tester = cagey_csp_model((3,[(10, [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)], '*')]))
+for c in tester.get_all_cons():
+    print("here", len(c.scope))
+    print("rahhh", c.scope)
+guess = [c for c in tester.get_all_cons() if len(c.scope) == 7]
+print("guess", guess)
+print("here2", guess[0].scope[0].dom)
+# print(guess[0])
+for g in guess:
+    print("guess", g)
+    print("guess", g.sat_tuples)
+
