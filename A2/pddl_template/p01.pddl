@@ -13,23 +13,79 @@
   (:init
 
     ; Hero location and carrying status
+    (hero-at loc-3-1)
+    (arm-free)
 
     ; Locationg <> Corridor Connections
+    (connected-corridor loc-3-1 c3132)
+    (connected-corridor loc-3-2 c3132)
+
+    (connected-corridor loc-1-2 c1222)
+    (connected-corridor loc-2-2 c1222)
+
+    (connected-corridor loc-2-2 c2232)
+    (connected-corridor loc-3-2 c2232)
+
+    (connected-corridor loc-3-2 c3242)
+    (connected-corridor loc-4-2 c3242)
+
+    (connected-corridor loc-2-2 c2223)
+    (connected-corridor loc-2-3 c2223)
+
+    (connected-corridor loc-3-2 c3233)
+    (connected-corridor loc-3-3 c3233)
+
+    (connected-corridor loc-2-3 c2333)
+    (connected-corridor loc-3-3 c2333)
+
+    (connected-corridor loc-2-3 c2324)
+    (connected-corridor loc-2-4 c2324)
+
+    (connected-corridor loc-3-3 c3334)
+    (connected-corridor loc-3-4 c3334)
+
+    (connected-corridor loc-2-4 c2434)
+    (connected-corridor loc-3-4 c2434)
+
+    (connected-corridor loc-3-4 c3444)
+    (connected-corridor loc-4-4 c3444)
 
     ; Key locations
+    (key-at loc-2-2 key1)
+    (key-at loc-2-4 key2)
+    (key-at loc-4-2 key3)
+    (key-at loc-4-4 key4)
 
     ; Locked corridors
+    (is-locked c3132 rainbow)
+    (is-locked c3242 purple)
+    (is-locked c2324 red)
+    (is-locked c2434 red)
+    (is-locked c3444 purple)
 
     ; Risky corridors
+    (is-risky c2324)
+    (is-risky c2434)
 
     ; Key colours
+    (key-colour key1 red)
+    (key-colour key2 yellow)
+    (key-colour key3 rainbow)
+    (key-colour key4 purple)
 
     ; Key usage properties (one use, two use, etc)
-
+    (key-useable key1)
+    (key-useable key2)
+    (key-useable key3)
+    (key-useable key4)
+    
+    (key-twouse key2)
+    (key-oneuse key3)
+    (key-oneuse key4)
   )
   (:goal
     (and
-      ; Hero's final location goes here
+      (hero-at loc-3-1)
     )
   )
 

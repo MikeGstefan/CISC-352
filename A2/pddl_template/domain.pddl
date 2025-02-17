@@ -23,18 +23,28 @@
         ; One predicate given for free!
         (hero-at ?loc - location)
         
-        ; IMPLEMENT ME
-        (connected-corridor ?loc - location ?cor - corridor) ;checks for corridor
-        (is-locked ?cor - corridor)
-        (is-collapsed ?cor - corridor)
+        ; If room adjacent to corridor
+        (connected-corridor ?loc - location ?cor - corridor) 
+        
+        ; Room Proporties
         (is-messy ?loc - location)
+        (key-at ?room - location ?item - key)
+
+        ; Corridor Proporties 
+        (is-collapsed ?cor - corridor)
         (is-risky ?cor - corridor)
+        (is-locked ?cor - corridor ?col - colour)
 
-        (key-valid ?item - key ?lock - colour)
-        (key-at ?room - location)
+        (key-colour ?item - key ?col - colour)
+        
+        ; Key Useability Tracker
         (key-useable ?item - key)
-
-        (holding ?item - key)
+        (key-oneuse ?item - key)
+        (key-twouse ?item - key)
+        
+        ;If Hero's arm is free and what they have
+        (arm-free)
+        (has-key ?item - key)
 
 
     )
@@ -53,7 +63,7 @@
 
         :precondition (and
 
-            (hero-at ?from) (is-connected ?from ?cor) (is-connected ?to ?cor) 
+            (hero-at ?from) (connected-corridor ?from ?cor) (connected-corridor ?to ?cor) 
                 (not (is-locked ?cor)) (not (is-collapsed ?cor))
 
         )
@@ -81,8 +91,8 @@
         :precondition (and
 
             
-            (hero-at ?loc) (key-at ?loc) 
-                (not(holding ?k)) (not(is-messy ?loc))
+            (hero-at ?loc) (key-at ?loc ?k) 
+                (arm-free) (not(is-messy ?loc))
                 
 
         )
@@ -90,7 +100,7 @@
         :effect (and
                 
             
-            (holding ?k)
+            (not(arm-free)) (not (key-at ?loc ?k)) (has-key ?k)
 
         )
     )
@@ -105,14 +115,12 @@
 
         :precondition (and
 
-            
-            (hero-at ?loc) (holding ?k)
+            (hero-at ?loc) (not(arm-free))
         )
 
         :effect (and
 
-            
-            (key-at ?loc) (not(holding ?k))
+            (key-at ?loc ?k) (arm-free) (not(has-key ?k))
         )
     )
 
@@ -131,13 +139,22 @@
 
         :precondition (and
 
-            ; IMPLEMENT ME
+            (not(arm-free)) (has-key ?k) (key-useable ?k) (connected-corridor ?loc ?cor)
+                (key-colour ?k ?col) (hero-at ?loc) (is-locked ?cor ?col)
 
         )
 
         :effect (and
 
-            ; IMPLEMENT ME
+            
+            (not (is-locked ?cor ?col))
+
+            (when (key-oneuse ?k) 
+                (and (not (key-useable ?k)) (not (key-oneuse ?k))) )
+            
+
+            (when (key-twouse ?k)
+                (and (not (key-twouse ?k)) (key-oneuse ?k)) )
 
         )
     )
@@ -152,14 +169,13 @@
 
         :precondition (and
 
-            ; IMPLEMENT ME
             (is-messy ?loc) (hero-at ?loc)
 
         )
 
         :effect (and
 
-            ; IMPLEMENT ME
+            (not (is-messy ?loc))
 
         )
     )
