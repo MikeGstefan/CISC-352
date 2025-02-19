@@ -13,7 +13,7 @@
   (:init
 
     ; Hero location and carrying status
-    (hero-at loc-3-1)
+    (hero-at loc-1-2)
     (arm-free)
 
     ; Locationg <> Corridor Connections
