@@ -21,15 +21,18 @@
     (connected-corridor loc-2-2 c2122)
 
     (connected-corridor loc-1-2 c1222)
-    ; (connected-corridor 1-2 1222)
+    (connected-corridor loc-2-2 c1222)
 
     (connected-corridor loc-2-2 c2232)
     (connected-corridor loc-3-2 c2232)
 
-    (connected-corridor loc-3-2 c3242)
+    ; (connected-corridor loc-3-2 c3242)
 
     (connected-corridor loc-2-2 c2223)
     (connected-corridor loc-2-3 c2223)
+    
+    (connected-corridor loc-4-2 c3242)
+    (connected-corridor loc-3-2 c3242)
 
     ; Key locations
     (key-at loc-2-1 key1)
