@@ -111,6 +111,24 @@
     (is-locked c2535 green)
     (is-locked c3545 purple)
     (is-locked c4544 rainbow)
+    
+    ; red locks
+    (lock c1223)
+    (lock c2223)
+    (lock c3223)
+    
+    (lock c1323)
+    (lock c2333)
+    
+    (lock c2314)
+    (lock c2324)
+    (lock c2334)
+
+    ;other locks
+    (lock c2425)
+    (lock c2535)
+    (lock c3545)
+    (lock c4544)
 
     ; Risky corridors
     (is-risky c1223)

@@ -46,6 +46,12 @@
     (is-locked c2223 green)
     (is-locked c2232 yellow)
     (is-locked c3242 rainbow)
+    
+    (lock c2122 )
+    (lock c1222 )
+    (lock c2223 )
+    (lock c2232 )
+    (lock c3242 )
 
 
     ; Risky corridors

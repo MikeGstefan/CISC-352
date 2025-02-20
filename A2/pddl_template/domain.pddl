@@ -34,6 +34,7 @@
         (is-collapsed ?cor - corridor)
         (is-risky ?cor - corridor)
         (is-locked ?cor - corridor ?col - colour)
+        (lock ?cor)
 
         (key-colour ?item - key ?col - colour)
         
@@ -64,7 +65,7 @@
         :precondition (and
 
             (hero-at ?from) (connected-corridor ?from ?cor) (connected-corridor ?to ?cor) 
-                (forall(?col - colour) (not(is-locked ?cor ?col))) (not (is-collapsed ?cor)) (not(= ?from ?to))
+                (not(lock ?cor)) (not (is-collapsed ?cor)) (not(= ?from ?to))
 
         )
 
@@ -140,7 +141,7 @@
         :precondition (and
 
             (not(arm-free)) (has-key ?k) (key-useable ?k) (connected-corridor ?loc ?cor)
-                (key-colour ?k ?col) (hero-at ?loc) (is-locked ?cor ?col)
+                (key-colour ?k ?col) (hero-at ?loc) (is-locked ?cor ?col) (lock ?cor)
 
         )
 
@@ -148,6 +149,7 @@
 
             
             (not (is-locked ?cor ?col))
+            (not (lock ?cor))
 
             (when (key-oneuse ?k) 
                 (and (not (key-useable ?k)) (not (key-oneuse ?k))) )
