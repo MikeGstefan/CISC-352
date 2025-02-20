@@ -13,114 +13,114 @@
   (:init
 
     ; Hero location and carrying status
-    (hero-at loc-1-1)
+    (hero-at loc-2-1)
     (arm-free)
 
     ; Locationg <> Corridor Connections
-    (connected-corridor 2-1 c2122)
-    (connected-corridor 2-2 c2122)
+    (connected-corridor loc-2-1 c2122)
+    (connected-corridor loc-2-2 c2122)
 
-    (connected-corridor 1-2 c1222)
-    (connected-corridor 2-2 c1222)
+    (connected-corridor loc-1-2 c1222)
+    (connected-corridor loc-2-2 c1222)
 
-    (connected-corridor 2-2 c2232)
-    (connected-corridor 3-2 c2232)
+    (connected-corridor loc-2-2 c2232)
+    (connected-corridor loc-3-2 c2232)
 
-    (connected-corridor 1-2 c1213)
-    (connected-corridor 1-3 c1213)
+    (connected-corridor loc-1-2 c1213)
+    (connected-corridor loc-1-3 c1213)
 
-    (connected-corridor 1-2 c1223)
-    (connected-corridor 2-3 c1223)
+    (connected-corridor loc-1-2 c1223)
+    (connected-corridor loc-2-3 c1223)
 
-    (connected-corridor 2-2 c2223)
-    (connected-corridor 2-3 c2223)
+    (connected-corridor loc-2-2 c2223)
+    (connected-corridor loc-2-3 c2223)
 
-    (connected-corridor 3-2 c3223)
-    (connected-corridor 2-3 c3223)
+    (connected-corridor loc-3-2 c3223)
+    (connected-corridor loc-2-3 c3223)
 
-    (connected-corridor 3-2 c3233)
-    (connected-corridor 3-3 c3233)
+    (connected-corridor loc-3-2 c3233)
+    (connected-corridor loc-3-3 c3233)
 
-    (connected-corridor 1-3 c1323)
-    (connected-corridor 2-3 c1323)
+    (connected-corridor loc-1-3 c1323)
+    (connected-corridor loc-2-3 c1323)
 
-    (connected-corridor 2-3 c2333)
-    (connected-corridor 3-3 c2333)
+    (connected-corridor loc-2-3 c2333)
+    (connected-corridor loc-3-3 c2333)
 
-    (connected-corridor 1-3 c1314)
-    (connected-corridor 1-4 c1314)
+    (connected-corridor loc-1-3 c1314)
+    (connected-corridor loc-1-4 c1314)
 
-    (connected-corridor 2-3 c2314)
-    (connected-corridor 1-4 c2314)
+    (connected-corridor loc-2-3 c2314)
+    (connected-corridor loc-1-4 c2314)
 
-    (connected-corridor 2-3 c2324)
-    (connected-corridor 2-4 c2324)
+    (connected-corridor loc-2-3 c2324)
+    (connected-corridor loc-2-4 c2324)
 
-    (connected-corridor 2-3 c2334)
-    (connected-corridor 3-4 c2334)
+    (connected-corridor loc-2-3 c2334)
+    (connected-corridor loc-3-4 c2334)
 
-    (connected-corridor 3-3 c3334)
-    (connected-corridor 3-4 c3334)
+    (connected-corridor loc-3-3 c3334)
+    (connected-corridor loc-3-4 c3334)
 
-    (connected-corridor 1-4 c1424)
-    (connected-corridor 2-4 c1424)
+    (connected-corridor loc-1-4 c1424)
+    (connected-corridor loc-2-4 c1424)
 
-    (connected-corridor 2-4 c2434)
-    (connected-corridor 3-4 c2434)
+    (connected-corridor loc-2-4 c2434)
+    (connected-corridor loc-3-4 c2434)
 
-    (connected-corridor 2-4 c2425)
-    (connected-corridor 2-5 c2425)
+    (connected-corridor loc-2-4 c2425)
+    (connected-corridor loc-2-5 c2425)
 
-    (connected-corridor 2-5 c2535)
-    (connected-corridor 3-5 c2535)
+    (connected-corridor loc-2-5 c2535)
+    (connected-corridor loc-3-5 c2535)
 
-    (connected-corridor 3-5 c3545)
-    (connected-corridor 4-5 c3545)
+    (connected-corridor loc-3-5 c3545)
+    (connected-corridor loc-4-5 c3545)
 
-    (connected-corridor 4-5 c4544)
-    (connected-corridor 4-4 c4544)
+    (connected-corridor loc-4-5 c4544)
+    (connected-corridor loc-4-4 c4544)
 
-    (connected-corridor 4-4 c4443)
-    (connected-corridor 4-3 c4443)
+    (connected-corridor loc-4-4 c4443)
+    (connected-corridor loc-4-3 c4443)
 
 
     ; Key locations
-    (key-at 2-1 key1)
-    (key-at 2-3 key2)
-    (key-at 2-3 key3)
-    (key-at 2-3 key4)
-    (key-at 2-3 key5)
-    (key-at 4-4 key6)
+    (key-at loc-2-1 key1)
+    (key-at loc-2-3 key2)
+    (key-at loc-2-3 key3)
+    (key-at loc-2-3 key4)
+    (key-at loc-2-3 key5)
+    (key-at loc-4-4 key6)
 
     ; Locked corridors
     
     ; red locks
-    (is-locked 1223 red)
-    (is-locked 2223 red)
-    (is-locked 3223 red)
+    (is-locked c1223 red)
+    (is-locked c2223 red)
+    (is-locked c3223 red)
     
-    (is-locked 1323 red)
-    (is-locked 2333 red)
+    (is-locked c1323 red)
+    (is-locked c2333 red)
     
-    (is-locked 2314 red)
-    (is-locked 2324 red)
-    (is-locked 2334 red)
+    (is-locked c2314 red)
+    (is-locked c2324 red)
+    (is-locked c2334 red)
 
     ;other locks
-    (is-locked 2425 purple)
-    (is-locked 2535 green)
-    (is-locked 3545 purple)
-    (is-locked 4544 rainbow)
+    (is-locked c2425 purple)
+    (is-locked c2535 green)
+    (is-locked c3545 purple)
+    (is-locked c4544 rainbow)
 
     ; Risky corridors
-    (is-risky 1223)
-    (is-risky 2223)
-    (is-risky 3223)
-    (is-risky 1323)
-    (is-risky 2333)
-    (is-risky 2314)
-    (is-risky 2324)
-    (is-risky 2334)
+    (is-risky c1223)
+    (is-risky c2223)
+    (is-risky c3223)
+    (is-risky c1323)
+    (is-risky c2333)
+    (is-risky c2314)
+    (is-risky c2324)
+    (is-risky c2334)
 
     ; Key colours
     (key-colour key1 red)
@@ -147,7 +147,7 @@
   (:goal
     (and
       ; Hero's final location goes here
-      (hero-at 4-3)
+      (hero-at loc-4-3)
     )
   )
 
