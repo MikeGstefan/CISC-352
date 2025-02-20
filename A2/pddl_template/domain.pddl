@@ -64,7 +64,7 @@
         :precondition (and
 
             (hero-at ?from) (connected-corridor ?from ?cor) (connected-corridor ?to ?cor) 
-                (not (is-locked ?cor)) (not (is-collapsed ?cor))
+                (forall(?col - colour) (not(is-locked ?cor ?col))) (not (is-collapsed ?cor)) (not(= ?from ?to))
 
         )
 
@@ -115,7 +115,7 @@
 
         :precondition (and
 
-            (hero-at ?loc) (not(arm-free))
+            (hero-at ?loc) (not(arm-free)) (has-key ?k)
         )
 
         :effect (and

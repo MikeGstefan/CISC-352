@@ -13,37 +13,36 @@
   (:init
 
     ; Hero location and carrying status
-    (hero-at loc-1-1)
+    (hero-at loc-2-2)
     (arm-free)
     
     ; Locationg <> Corridor Connections
-    (connected-corridor 2-1 2122)
-    (connected-corridor 2-2 2122)
+    (connected-corridor loc-2-1 c2122)
+    (connected-corridor loc-2-2 c2122)
 
-    (connected-corridor 1-2 1222)
-    (connected-corridor 1-2 1222)
+    (connected-corridor loc-1-2 c1222)
+    ; (connected-corridor 1-2 1222)
 
-    (connected-corridor 2-2 2232)
-    (connected-corridor 3-2 2232)
+    (connected-corridor loc-2-2 c2232)
+    (connected-corridor loc-3-2 c2232)
 
-    (connected-corridor 3-2 3242)
-    (connected-corridor 3-4 3242)
+    (connected-corridor loc-3-2 c3242)
 
-    (connected-corridor 2-2 2223)
-    (connected-corridor 2-3 2223)
+    (connected-corridor loc-2-2 c2223)
+    (connected-corridor loc-2-3 c2223)
 
     ; Key locations
-    (key-at 2-1 key1)
-    (key-at 1-2 key2)
-    (key-at 2-2 key3)
-    (key-at 2-3 key4)
+    (key-at loc-2-1 key1)
+    (key-at loc-1-2 key2)
+    (key-at loc-2-2 key3)
+    (key-at loc-2-3 key4)
 
     ; Locked corridors
-    (is-locked 2122 purple)
-    (is-locked 1222 yellow)
-    (is-locked 2223 green)
-    (is-locked 2232 yellow)
-    (is-locked 3242 rainbow)
+    (is-locked c2122 purple)
+    (is-locked c1222 yellow)
+    (is-locked c2223 green)
+    (is-locked c2232 yellow)
+    (is-locked c3242 rainbow)
 
 
     ; Risky corridors
