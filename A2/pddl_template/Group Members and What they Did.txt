@@ -1,0 +1,10 @@
+Cooper Moses - 20338468 - 21CCM11
+- Problem 1
+- Original draft for Domain
+
+Calvin Birch - 20346282 - 21ccb7
+problem 2 + 3
+
+Mike Stefan - 20342569 - 21mgs11
+- problem 4
+- debugged and corrected errors in domain and problems 2+3 to allow for solutions
