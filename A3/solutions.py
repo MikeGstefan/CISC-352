@@ -41,7 +41,12 @@ def normalize(self):
     {}
     """
     "*** YOUR CODE HERE ***"
-    raiseNotDefined()
+    total = self.totalCount()
+    if total == 0:
+        return
+    for key in self.keys():
+        self[key] = self[key] / total
+    
 
 def sample(self):
     """
