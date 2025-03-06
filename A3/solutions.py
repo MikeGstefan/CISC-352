@@ -70,6 +70,21 @@ def sample(self):
     0.0
     """
     "*** YOUR CODE HERE ***"
+    # Step 1: compute total sum
+    total = sum(self[key] for key in self)
+
+    # Step 2: generate num in range 0 - total sum
+    randNum = random.randint(0, total)
+
+    # Step 3: go through dictionary, summing until the cumulative sum pass the rand num
+    cumulativeSum = 0.0
+    for key in self.keys():
+        cumulativeSum += self[key]
+        if(cumulativeSum >= randNum):
+            return key
+
+
+
     raiseNotDefined()
 
 
