@@ -41,7 +41,7 @@ def normalize(self):
     {}
     """
     "*** YOUR CODE HERE ***"
-    total = self.totalCount()
+    total = self.total()
     if total == 0:
         return
     for key in self.keys():
@@ -85,7 +85,7 @@ def sample(self):
 
 
 
-    raiseNotDefined()
+    
 
 
 def getObservationProb(self, noisyDistance, pacmanPosition, ghostPosition, jailPosition):
