@@ -71,10 +71,10 @@ def sample(self):
     """
     "*** YOUR CODE HERE ***"
     # Step 1: compute total sum
-    total = sum(self[key] for key in self)
+    total = self.total()
 
     # Step 2: generate num in range 0 - total sum
-    randNum = random.randint(0, total)
+    randNum = random.uniform(0, total)
 
     # Step 3: go through dictionary, summing until the cumulative sum pass the rand num
     cumulativeSum = 0.0
