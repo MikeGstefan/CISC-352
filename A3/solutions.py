@@ -139,6 +139,7 @@ def elapseTime(self, gameState):
     """
     "*** YOUR CODE HERE ***"
 
+    newBeliefs = util.Counter()
     # loop over all possible previous ghost positions
     for oldPos in self.allPositions:
 
@@ -146,7 +147,7 @@ def elapseTime(self, gameState):
 
         # update beliefs based on prob distrobution of ghost being at old pos
         for newPos,prob in newPosDist.items():
-            self.beliefs[newPos] += prob * self.beliefs[oldPos]
+            newBeliefs[newPos] += prob * self.beliefs[oldPos]
 
+    self.beliefs = newBeliefs 
     self.beliefs.normalize()
-    
