@@ -70,13 +70,10 @@ def sample(self):
     0.0
     """
     "*** YOUR CODE HERE ***"
-    # Step 1: compute total sum
     total = self.total()
 
-    # Step 2: generate num in range 0 - total sum
     randNum = random.uniform(0, total)
 
-    # Step 3: go through dictionary, summing until the cumulative sum pass the rand num
     cumulativeSum = 0.0
     for key in self.keys():
         cumulativeSum += self[key]
@@ -141,4 +138,15 @@ def elapseTime(self, gameState):
     current position is known.
     """
     "*** YOUR CODE HERE ***"
-    raiseNotDefined()
+
+    # loop over all possible previous ghost positions
+    for oldPos in self.allPositions:
+
+        newPosDist = self.getPositionDistribution(gameState, oldPos) # returns a probability distribution over possible new positions given that the ghost was at oldPos
+
+        # update beliefs based on prob distrobution of ghost being at old pos
+        for newPos,prob in newPosDist.items():
+            self.beliefs[newPos] += prob * self.beliefs[oldPos]
+
+    self.beliefs.normalize()
+    
