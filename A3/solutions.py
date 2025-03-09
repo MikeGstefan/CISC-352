@@ -121,7 +121,13 @@ def observeUpdate(self, observation, gameState):
     position is known.
     """
     "*** YOUR CODE HERE ***"
-    raiseNotDefined()
+    if observation == None:
+        for pose in self.allPositions:
+            self.beliefs[pose] = 0
+        self.beliefs[self.getJailPosition()] = 1.0
+    else:
+        for pose in self.allPositions:
+            self.beliefs[pose] *= self.getObservationProb(observation,gameState.getPacmanPosition(),pose,self.getJailPosition())
     self.beliefs.normalize()
 
 
