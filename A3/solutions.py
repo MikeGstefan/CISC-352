@@ -93,7 +93,15 @@ def getObservationProb(self, noisyDistance, pacmanPosition, ghostPosition, jailP
     Return the probability P(noisyDistance | pacmanPosition, ghostPosition).
     """
     "*** YOUR CODE HERE ***"
-    raiseNotDefined()
+    # return 1
+    if noisyDistance == None and ghostPosition == jailPosition:
+        return 1
+    if noisyDistance == None:
+        return 0
+    if ghostPosition == jailPosition:
+        return 0
+   
+    return busters.getObservationProbability(noisyDistance, util.manhattanDistance(pacmanPosition, ghostPosition))
 
 
 
