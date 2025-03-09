@@ -20,12 +20,12 @@ REQUIRED_FILES = ["bustersAgents.py", "solutions.py"]
 
 
 
-team_num = input("Enter your team number: ")
+team_num = input("Enter your team number:")
 
 folder_path = os.getcwd()
 
 
-contributions = "not-found.txt"
+contributions = ""
 while not os.path.exists(os.path.join(folder_path, contributions)):
     contributions = input("Enter the contributions file (.txt, .pdf, .docx) you would like to include in the zip file: ")
     if not os.path.exists(os.path.join(folder_path, contributions)):
